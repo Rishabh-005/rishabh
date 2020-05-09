@@ -1,0 +1,130 @@
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: #162447;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  padding-top:  50px;
+  font-size: 50px;
+  color: #58B4AE;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+hr {
+color: white;
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 10px;
+width: 5%
+
+}
+
+
+.top-contanier{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-contanier{
+  background-color: white;
+  padding-top: 50px;
+}
+
+.bottom-contanier{
+  background-color: #66BFBF;
+  padding: 30px  20px;
+}
+
+.between-contanier{
+  background-color: white;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 250px;
+  top:200px;
+}
+
+.middle-cloud{
+  position: relative;
+}
+
+.bottom-cloud{
+  position: relative;
+  left: 400px;
+  top: 200px;
+}
+
+.simple-boy{
+  border-radius: 100%;
+}
+.simple-pencil{
+  border-radius: 100%;
+  padding-top: 40px;
+}
+
+.simple-thumb{
+  border-radius: 100%;
+  padding-top: 40px;
+}
+
+
+p{
+  font-size: 25px;
+  color: #162447;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 15PX;
+  padding: 30PX 0PX;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color:#eaf6f6;
+}
+
+.btn{
+  color: BLACK;
+  font-size: 25px;
+  padding: 15px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  background: rgb(124, 255, 241);
+  background: -moz-linear-gradient(90deg, rgb(124, 255, 241) 30%, rgb(117, 255, 135) 70%);
+  background: -webkit-linear-gradient(90deg, rgb(124, 255, 241) 30%, rgb(117, 255, 135) 70%);
+  background: -o-linear-gradient(90deg, rgb(124, 255, 241) 30%, rgb(117, 255, 135) 70%);
+  background: -ms-linear-gradient(90deg, rgb(124, 255, 241) 30%, rgb(117, 255, 135) 70%);
+  background: linear-gradient(0deg, rgb(124, 255, 241) 30%, rgb(117, 255, 135) 70%);
+  -webkit-box-shadow: 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow:         2px 1px rgba(50, 50, 50, 0.75);
+
+}
